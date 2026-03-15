@@ -78,7 +78,7 @@ export default function Terms() {
     {
       title: "16. Contact Information",
       content:
-        "Velora Studio | Email: officialvelorastudio@gmail.com | Website: velorastudio.in"
+        "Velora Studio | Email: officialvelorastudio@gmail.com"
     }
   ];
 
