@@ -1,10 +1,6 @@
 import express, { type Express } from "express";
 import fs from "fs";
-import path, {dirname} from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import path from "path";
 
 export function serveStatic(app: Express) {
   const distPath = path.resolve(__dirname, "public");
